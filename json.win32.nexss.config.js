@@ -2,7 +2,7 @@ let languageConfig = Object.assign({}, require("../config.win32"));
 languageConfig.title = "JSON";
 languageConfig.description =
   "JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write.";
-languageConfig.url = "";
+languageConfig.url = "https://www.json.org";
 languageConfig.extensions = [".json"];
 languageConfig.builders = {};
 languageConfig.compilers = {
