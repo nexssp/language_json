@@ -3,6 +3,9 @@ languageConfig.title = "JSON";
 languageConfig.description =
   "JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write.";
 languageConfig.url = "https://www.json.org";
+languageConfig.founders = ["Douglas Crockford"];
+languageConfig.developers = [""];
+languageConfig.years = ["2000"];
 languageConfig.extensions = [".json"];
 languageConfig.builders = {};
 languageConfig.compilers = {
