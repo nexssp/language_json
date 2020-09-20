@@ -1,4 +1,7 @@
-let languageConfig = Object.assign({}, require("../config.win32"));
+let languageConfig = Object.assign(
+  {},
+  require(`../config.${process.platform}`)
+);
 languageConfig.title = "JSON";
 languageConfig.description =
   "JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write.";
@@ -14,8 +17,8 @@ languageConfig.compilers = {
     command: "",
     stream: "transformFile",
     args: "<file>",
-    help: ``
-  }
+    help: ``,
+  },
 };
 languageConfig.errors = require("./nexss.json.errors");
 languageConfig.languagePackageManagers = {};
